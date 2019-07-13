@@ -1,0 +1,28 @@
+See Video:
+https://youtu.be/U9gXArLy1d8
+
+
+id0000512-Scripts-for-Audio-Clean-Edition-Master-PosProduction
+INSTRUCTIONS for id0000511-Script-Audio-add-tags-id3tags-metadata
+create a folder outside Google File Stream (if you are using it). For example, in your desktop create a folder called "myAudio"
+place all repository in the folder "myAudio"
+inside the folder "myAudio" place your image cover called "cover.jpg"
+this script is tested in Mac OSx Terminal, but will work also in Linux, and the Microsoft Windows Terminal Linux
+if you are a Mac OSx user you need install:
+https://brew.sh/ https://ffmpeg.org/
+
+1. place your wav files in the folder "myAudio", for example: 001.wav 002.wav 003.wav
+
+2. Edit the script and add your custom metadata, like title, author, songs names, etc...
+
+3. run in your terminal the next command: sh script.sh
+
+4. you can see the new mp3 are created: 001.mp3 002.mp3 003.mp3
+
+5. the new mp3 will have 41000hz, 32 bit depth and 128 kpbs, but of course you can modify everything according your needs.
+
+6. The cover and other metadata sometimes can not work, the hard work id done but if something is not work you can use to complete the metadata this free tools:
+
+https://www.apple.com/itunes/
+https://musicbrainz.org/doc/Magic_MP3_Tagger 
+https://kid3.sourceforge.io/ etc...
